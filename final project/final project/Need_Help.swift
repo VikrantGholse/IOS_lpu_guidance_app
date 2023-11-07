@@ -7,10 +7,23 @@
 
 import UIKit
 
+var darkmode  = Bool()
+
 class Need_Help: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if darkmode == true
+        {
+//            mainmenu.textColor = UIColor.white
+            self.view.backgroundColor = UIColor.systemOrange
+        }
+        else
+        {
+//            mainmenu.textColor = UIColor.black
+            self.view.backgroundColor = UIColor.darkGray
+        }
 
         // Do any additional setup after loading the view.
     }

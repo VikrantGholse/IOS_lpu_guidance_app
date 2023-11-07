@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     
     @IBAction func login(_ sender: UIButton) {
         
+        darkmode = light
+        
         if reg_no.text == "12016400" && pass.text == "abc"{
             performSegue(withIdentifier: "seg1", sender: self)
         }
@@ -49,14 +51,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var img: UIImageView!
     
     var arr : [UIImage] = [UIImage(named: "Unknown.jpeg")!,UIImage(named: "LPU.jpeg")!,UIImage(named: "slide-rank-merge.jpeg")!]
+    
+    var light : Bool = false
 
 
     
     @IBAction func theam(_ sender: UISwitch) {
         
         if sender.isOn {
+            light = false
                applyDarkMode()
            } else {
+               light = true
                applyLightMode()
            }
         

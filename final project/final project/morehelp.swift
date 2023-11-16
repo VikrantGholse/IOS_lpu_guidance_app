@@ -51,17 +51,6 @@ class morehelp: UIViewController, UITableViewDelegate, UITableViewDataSource {
             destination.urlstr = gMaps
         }
     }
-////
-//    func performSegNK() {
-//        performSegue(withIdentifier: "moremaps", sender: self)
-//
-//        let morehelpWB = moremapwebview()
-//
-//        morehelpWB.urlstr = "https://maps.app.goo.gl/XRgF9F4at7RmzyBz6"
-//
-//        present(morehelpWB, animated: true, completion: nil)
-//
-//    }
 
     
     func numberOfSections(in tableView: UITableView) -> Int {

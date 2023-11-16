@@ -52,4 +52,10 @@ class Help_or_Know: UIViewController {
         
         performSegue(withIdentifier: "seg2", sender: self)
     }
+    
+    @IBAction func syllabus(_ sender: UIButton) {
+        performSegue(withIdentifier: "tosyllabus", sender: self)
+        
+    }
+    
 }

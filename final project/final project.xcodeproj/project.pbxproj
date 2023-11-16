@@ -11,6 +11,7 @@
 		6D1176882AF1682C00C00358 /* morehelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1176872AF1682C00C00358 /* morehelp.swift */; };
 		6D4220182AEA7E4800D55620 /* verto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D4220172AEA7E4800D55620 /* verto.mp3 */; };
 		6D8B45BF2AE6248F00CF5104 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B45BE2AE6248F00CF5104 /* ForgotPassword.swift */; };
+		6D97A0802AFAB59B0035F3DF /* SyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97A07F2AFAB59B0035F3DF /* SyllabusViewController.swift */; };
 		6DB73AA52AEBB71C00BB5191 /* helplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB73AA42AEBB71C00BB5191 /* helplist.swift */; };
 		6DE04D682AE4C717008C6530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE04D672AE4C717008C6530 /* AppDelegate.swift */; };
 		6DE04D6A2AE4C717008C6530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE04D692AE4C717008C6530 /* SceneDelegate.swift */; };
@@ -50,6 +51,7 @@
 		6D1176872AF1682C00C00358 /* morehelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morehelp.swift; sourceTree = "<group>"; };
 		6D4220172AEA7E4800D55620 /* verto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = verto.mp3; sourceTree = "<group>"; };
 		6D8B45BE2AE6248F00CF5104 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		6D97A07F2AFAB59B0035F3DF /* SyllabusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusViewController.swift; sourceTree = "<group>"; };
 		6DB73AA42AEBB71C00BB5191 /* helplist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helplist.swift; sourceTree = "<group>"; };
 		6DE04D642AE4C717008C6530 /* final project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "final project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE04D672AE4C717008C6530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				6DE04D692AE4C717008C6530 /* SceneDelegate.swift */,
 				6DE04D6B2AE4C717008C6530 /* ViewController.swift */,
 				6DE04D6D2AE4C717008C6530 /* Main.storyboard */,
+				6D97A07F2AFAB59B0035F3DF /* SyllabusViewController.swift */,
 				6D8B45BE2AE6248F00CF5104 /* ForgotPassword.swift */,
 				6DE04D9F2AE5983E008C6530 /* web_view.swift */,
 				6DE04D9D2AE59519008C6530 /* Need_Help.swift */,
@@ -295,6 +298,7 @@
 				6DE04D6C2AE4C717008C6530 /* ViewController.swift in Sources */,
 				6DE04D9A2AE58BB7008C6530 /* VideoPlayer.swift in Sources */,
 				6D082DA42AF242DF00239330 /* moremapwebview.swift in Sources */,
+				6D97A0802AFAB59B0035F3DF /* SyllabusViewController.swift in Sources */,
 				6D8B45BF2AE6248F00CF5104 /* ForgotPassword.swift in Sources */,
 				6DE04D682AE4C717008C6530 /* AppDelegate.swift in Sources */,
 				6DE04D982AE584EF008C6530 /* Help or Know.swift in Sources */,

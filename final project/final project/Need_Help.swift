@@ -52,6 +52,8 @@ class Need_Help: UIViewController {
          switch selectedSegmentIndex {
              case 0:
              
+             view.backgroundColor = UIColor.systemPink
+             
              if course.text == ""{
                  
                  let err = UIAlertController(title: "ERROR", message: "Enter course name", preferredStyle: .alert)
